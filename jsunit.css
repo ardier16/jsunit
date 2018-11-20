@@ -1,0 +1,80 @@
+#jsunit {
+    margin: 10px 10%;
+    width: 80%;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.jsunit-test {
+    background-color: lightcyan;
+    margin: 20px 0px; 
+    border-radius: 10px;
+    padding: 20px 5%;
+}
+
+.jsunit-test-passed {
+    background-color: rgb(176, 255, 176);
+}
+
+.jsunit-test-failed {
+    background-color: rgb(255, 204, 212);
+}
+
+.jsunit-title {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.jsunit-overall {
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.jsunit-info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.jsunit-module,
+.jsunit-elapsed {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.jsunit-asserts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.jsunit-assert {
+    margin: 0 auto;
+}
+
+.jsunit-assert-title {
+    text-align: center;
+}
+
+.jsunit-assert-result {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.jsunit-assert-error,
+.jsunit-assert-actual,
+.jsunit-assert-expected,
+.jsunit-assert-passed {
+    margin: 0px 5%;
+}
+
+.jsunit-passed {
+    color: green;
+}
+
+.jsunit-failed {
+    color: red;
+}
